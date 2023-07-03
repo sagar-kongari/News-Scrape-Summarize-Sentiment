@@ -4,8 +4,8 @@
 
 This project focuses on scraping finance articles from google and yahoo! finance using the classic `requests` and `BeautifulSoup` library. The parsed text from webpages are cleaned using regular expression which are then summarized using `Pegasus`, a pre-trained model i.e. transformers from `huggingface` library. Sentiment analysis is carried out with the help of pipeline API. Eventually the compiled output is converted into an array and the results are exported to a CSV file.
 
-- Access jupyter notebook: [notebook]()
-- Access python script: [script]()
+- Access jupyter notebook: [notebook](content/notebook.ipynb)
+- Access python script: [script](content/main.py)
 
 ## 📱 Example Output
 
