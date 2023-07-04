@@ -1,8 +1,8 @@
-# 📰 Financial Sentiments Scraper
+# 💸 Financial Sentiments Scraper
 
 ## 🗒️ Summary
 
-This project focuses on scraping sentiments from the web (Yahoo! Finance in particular) based on finance related topics such as Stocks/Tickers. The scraping is done using `requests` and `BeautifulSoup` library, a simplified and orthodox method. The scraped/parsed texts are in form of long paragraphs which are summarized using a transformer from `huggingface` library trained specifically for financial texts, `pegasus` ([know more](https://huggingface.co/docs/transformers/model_doc/pegasus)). Then, sentiment analysis is carried out with the help of pipeline API. Eventually, the decoded output summary & sentiment scores are compiled and converted into an array and the results are exported to a CSV file.
+This project focuses on scraping sentiments from the web (Yahoo! Finance in particular) based on finance related topics such as Stocks/Tickers. The scraping is done using `requests` and `BeautifulSoup` library, a simplified and orthodox method. The scraped/parsed texts are in the form of long paragraphs which are summarized using a transformer from `huggingface` library trained specifically for financial texts, `pegasus` ([know more](https://huggingface.co/docs/transformers/model_doc/pegasus)). Then, sentiment analysis is carried out with the help of pipeline API. Eventually, the decoded output summary & sentiment scores are compiled and converted into an array and the results are exported to a CSV file.
 
 - Access jupyter notebook: [notebook](content/notebook.ipynb)
 - Access python script: [script](content/main.py)
