@@ -1,8 +1,8 @@
-# 📰 News-Scrape-Summarize-Sentiment
+# 📰 Financial Sentiments Scraper
 
 ## 🗒️ Summary
 
-This automated project focuses on scraping finance articles from google and yahoo! finance using the classic `requests` and `BeautifulSoup` library. The parsed text from webpages are cleaned using regular expression which are then summarized using `Pegasus`, a pre-trained model i.e. transformers from `huggingface` library. Sentiment analysis is carried out with the help of pipeline API. Eventually the compiled output is converted into an array and the results are exported to a CSV file.
+This project focuses on scraping sentiments from the web (Yahoo! Finance in particular) based on finance related topics such as Stocks/Tickers. The scraping is done using `requests` and `BeautifulSoup` library, a simplified and orthodox method. The scraped/parsed texts are in form of long paragraphs which are summarized using a transformer from `huggingface` library trained specifically for financial texts, `pegasus` ([know more](https://huggingface.co/docs/transformers/model_doc/pegasus)). Then, sentiment analysis is carried out with the help of pipeline API. Eventually, the decoded output summary & sentiment scores are compiled and converted into an array and the results are exported to a CSV file.
 
 - Access jupyter notebook: [notebook](content/notebook.ipynb)
 - Access python script: [script](content/main.py)
